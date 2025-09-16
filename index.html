@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Maxx HRMS – Clone Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="logo">Maxx<span>HRMS</span></div>
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="darkToggle" class="dark-btn">🌙</button></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Human Resource Management<br />Simplified</h1>
+      <p>Automate payroll, track attendance and engage employees in one secure cloud.</p>
+      <a href="#contact" class="cta">Get Started</a>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="features container">
+    <h2>Everything you need to run HR</h2>
+    <div class="cards">
+      <div class="card">
+        <span class="icon">📊</span>
+        <h3>Analytics Dashboard</h3>
+        <p>Real-time insights into head-count, turnover and performance.</p>
+      </div>
+      <div class="card">
+        <span class="icon">🕒</span>
+        <h3>Attendance Tracking</h3>
+        <p>Biometric & geo-tagged check-ins with auto-timesheets.</p>
+      </div>
+      <div class="card">
+        <span class="icon">💵</span>
+        <h3>Payroll Automation</h3>
+        <p>One-click salary slip generation and statutory compliance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="pricing container">
+    <h2>Transparent Pricing</h2>
+    <div class="price-cards">
+      <div class="price-card">
+        <h4>Starter</h4>
+        <div class="price">$0<span>/mo</span></div>
+        <ul>
+          <li>Up to 10 employees</li>
+          <li>Core HR</li>
+          <li>Email support</li>
+        </ul>
+        <button>Choose Plan</button>
+      </div>
+      <div class="price-card featured">
+        <h4>Professional</h4>
+        <div class="price">$4<span>/emp/mo</span></div>
+        <ul>
+          <li>All features</li>
+          <li>Payroll & reports</li>
+          <li>24×7 support</li>
+        </ul>
+        <button>Choose Plan</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact container">
+    <h2>Let’s talk</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© <span id="year"></span> Maxx HRMS Clone – built for demo purposes</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
