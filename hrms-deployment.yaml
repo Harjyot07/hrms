@@ -16,4 +16,4 @@ spec:
       - name: hrms-app
         image: hrms-app:latest
         ports:
-        - containerPort: 3001
+        - containerPort: 3000
