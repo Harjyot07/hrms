@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hrms-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hrms-app
+  template:
+    metadata:
+      labels:
+        app: hrms-app
+    spec:
+      containers:
+      - name: hrms-app
+        image: hrms-app:latest
+        ports:
+        - containerPort: 3001
