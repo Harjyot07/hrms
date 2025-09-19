@@ -15,5 +15,6 @@ spec:
       containers:
       - name: hrms-app
         image: hrms-app:latest
+        imagePullPolicy: Never       # <--- Add this line
         ports:
         - containerPort: 3001
